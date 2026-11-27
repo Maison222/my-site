@@ -1,0 +1,86 @@
+:root {
+  --bg: #eeeeef;
+  --surface: #ffffff;
+  --ink: #17181a;
+  --ink-soft: #4a4c52;
+  --ink-faint: #80838b;
+  --line: #dadade;
+  --accent: #3b49df;
+
+  --font-body: 'Manrope', system-ui, Helvetica, Arial, sans-serif;
+  --font-head: 'Space Grotesk', 'Manrope', system-ui, sans-serif;
+
+  --reading-width: 640px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink-soft);
+  font-family: var(--font-body);
+  font-weight: 450;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--font-head);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.75rem;
+  letter-spacing: -0.035em;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 1.5rem;
+  letter-spacing: -0.03em;
+}
+
+h3 {
+  font-size: 1.25rem;
+  letter-spacing: -0.02em;
+}
+
+p {
+  margin: 0;
+  max-width: var(--reading-width);
+  line-height: 1.7;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+@media (max-width: 860px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
