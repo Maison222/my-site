@@ -4,7 +4,7 @@ export const site = {
   name: 'Amelie Wichert',
   tagline: 'Pro DJ',
   intro:
-    'Pro DJ who likes minions and vibe coding',
+    'Pro DJ who likes minions and good vibes!',
   email: '28osawawicherta@asij.ac.jp',
   github: 'https://github.com/maison222',
 }
@@ -40,3 +40,10 @@ export const projects = [
     link: null,
   },
 ]
+
+// The Lucilla page. Edit the text here.
+export const lucilla = {
+  title: 'Lucilla',
+  image: '/images/lucilla.jpg',
+  text: ['Hi my name is lucilla!'],
+}
