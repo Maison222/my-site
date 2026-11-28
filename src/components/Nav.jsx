@@ -18,7 +18,7 @@ export default function Nav() {
       </div>
 
       <div className="sidebar-bottom">
-        <a href={`mailto:${site.email}`}>{site.email}</a>
+        {site.email && <a href={`mailto:${site.email}`}>{site.email}</a>}
         <a href={site.github} target="_blank" rel="noreferrer">
           GitHub ↗
         </a>

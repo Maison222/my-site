@@ -5,7 +5,7 @@ export const site = {
   tagline: 'Pro DJ',
   intro:
     'Pro DJ who likes minions and good vibes!',
-  email: '28osawawicherta@asij.ac.jp',
+  email: '', // add an email here later and a link will appear in the sidebar
   github: 'https://github.com/maison222',
 }
 
