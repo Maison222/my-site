@@ -23,11 +23,13 @@ export default function Project() {
         <p>{project.summary}</p>
       </div>
 
-      <div className="project-image">
-        <div className="thumb">
-          {project.image ? <img src={project.image} alt={project.title} /> : <span>Image</span>}
+      {project.image && (
+        <div className="project-image">
+          <div className="thumb">
+            <img src={project.image} alt={project.title} />
+          </div>
         </div>
-      </div>
+      )}
 
       <div className="project-body">
         {project.description.map((text, i) => (

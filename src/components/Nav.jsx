@@ -13,7 +13,7 @@ export default function Nav() {
         <nav className="side-links">
           <Link to="/#about">About</Link>
           <Link to="/#projects">Projects</Link>
-          <Link to="/lucilla">Lucilla</Link>
+          <Link to="/extra">Extra</Link>
         </nav>
       </div>
 

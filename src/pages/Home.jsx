@@ -13,9 +13,11 @@ export default function Home() {
         <div className="cards">
           {projects.map((p) => (
             <Link key={p.slug} to={`/project/${p.slug}`} className="card">
-              <div className="thumb">
-                {p.image ? <img src={p.image} alt={p.title} /> : <span>Image</span>}
-              </div>
+              {p.image && (
+                <div className="thumb">
+                  <img src={p.image} alt={p.title} />
+                </div>
+              )}
               <div className="card-body">
                 <div className="card-title">
                   <h3>{p.title}</h3>

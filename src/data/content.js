@@ -11,31 +11,29 @@ export const site = {
 
 // Add a new project by copying one block and changing the slug.
 // The slug becomes the page address: /project/project-one
+// To show a picture, put the file in public/images and set image: '/images/your-file.jpg'
 export const projects = [
   {
     slug: 'project-one',
-    title: 'Project One: The WhatsApp Meme',
-    summary: 'The WhatsApp Meme is a meme that Eva had inspired me to make. It is very funny.',
-    description: [
-      '2x2 cm meme.',
-      'Going for $2.99 on memecoin.com.',
-    ],
-    image: '/images/whatsapp-meme.jpg',
+    title: 'Project One',
+    summary: 'Description of project one.',
+    description: ['More about project one.'],
+    image: '',
     link: null, // later: 'https://github.com/your-username/project-one'
   },
   {
     slug: 'project-two',
-    title: 'Project Two:',
-    summary: 'Louisa selfie that inspired cultural reformation movement.',
-    description: ['Sold on memecoin.com for $1.99. '],
-    image: '/images/project-two.jpg',
+    title: 'Project Two',
+    summary: 'Description of project two.',
+    description: ['More about project two.'],
+    image: '',
     link: null,
   },
   {
     slug: 'project-three',
-    title: 'Project Three: ',
+    title: 'Project Three',
     summary: 'Description of project three.',
-    description: ['more description.'],
+    description: ['More about project three.'],
     image: '',
     link: null,
   },

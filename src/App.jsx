@@ -3,7 +3,7 @@ import { Routes, Route, Link, useLocation } from 'react-router-dom'
 import Nav from './components/Nav.jsx'
 import Home from './pages/Home.jsx'
 import Project from './pages/Project.jsx'
-import Lucilla from './pages/Lucilla.jsx'
+import Extra from './pages/Extra.jsx'
 import './App.css'
 
 // Scrolls to #about / #projects, or to the top on a new page.
@@ -41,7 +41,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project/:slug" element={<Project />} />
-          <Route path="/lucilla" element={<Lucilla />} />
+          <Route path="/extra" element={<Extra />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>

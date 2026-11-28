@@ -217,11 +217,3 @@ section {
     gap: 2.5rem;
   }
 }
-
-/* Lucilla page photo */
-.profile-photo {
-  width: 100%;
-  max-width: 420px;
-  height: auto;
-  border-radius: 18px;
-}
