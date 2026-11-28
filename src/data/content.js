@@ -25,7 +25,7 @@ export const projects = [
   },
   {
     slug: 'project-two',
-    title: 'Project Two: Louisa selfie!',
+    title: 'Project Two:',
     summary: 'Louisa selfie that inspired cultural reformation movement.',
     description: ['Sold on memecoin.com for $1.99. '],
     image: '/images/project-two.jpg',
@@ -33,17 +33,16 @@ export const projects = [
   },
   {
     slug: 'project-three',
-    title: 'Project Three: The Quote That Changed Everything',
-    summary: 'Lifechanging meme that changed the world.',
-    description: ['Not for sale on memecoin.com.'],
-    image: '/images/project-three.jpg',
+    title: 'Project Three: ',
+    summary: 'Description of project three.',
+    description: ['more description.'],
+    image: '',
     link: null,
   },
 ]
 
-// The Lucilla page. Edit the text here.
-export const lucilla = {
-  title: 'Lucilla',
-  image: '/images/lucilla.jpg',
-  text: ['Hi my name is lucilla!'],
+// The Extra page. Edit the text here.
+export const extra = {
+  title: 'Extra',
+  text: ['this is the extra page!'],
 }
